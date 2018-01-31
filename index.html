@@ -5,22 +5,43 @@
 <head>
     <title>Reaction Speed!
     </title>
-    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-    
+
 
 </head>
 
 <body>
 
-    <h1> Test your reaction!</h1>
-    <p> Click on the boxes and circles as quickly as you can!</p>
-    <p id="result"> You have not clicked! </p>
-    <p id = "wait">Waiting for you!</p>
+    <div id="instructions">
+        <p>Click on the boxes and circles as quickly as you can! Try to average below 1 second!</p>
+    </div>
+    <div id="numbers">
+        <p id="result"> You have not clicked! </p>
+        <p id="wait">Waiting for you!</p>
+    </div>
+    <div id = "allTime">
+        <p id="bestTime">You have not clicked!</p>
+        <p id = "avgTime">Try it!</p>
+        <p id = "clicks">Click count: </p>
+        <p id="clickcount">0</p>
+    </div>
+    <div id="settings">Max lag time between blocks:
+        <select id = "maxlag">
+            <option> 0</option>
+            <option> 1</option>
+            <option> 2</option>
+            <option selected = "selected"> 3</option>
+            <option> 4</option>
+            <option> 5</option>
+        </select>
+        <button id="submitlag">Change lag</button>
+    </div>
+
     <div id="clickable"></div>
 
-    <script type="text/javascript" src = "js.js">
-        
+    <script type="text/javascript" src="js.js">
+
     </script>
 </body>
 
