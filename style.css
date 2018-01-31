@@ -1,0 +1,9 @@
+
+#clickable {
+    position:relative;
+    margin:100px 0 0 100px;
+    border-radius: 0%;
+    height:200px;
+    width: 200px;
+    background-color: blue;
+}
