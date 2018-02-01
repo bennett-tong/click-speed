@@ -20,7 +20,7 @@ html, body{
     display:flex;
     flex: 0 0 auto;
     flex-flow:row wrap;
-    align-items:flex-start;
+
 }
 #numbers p{
     margin:0 20px 5px 0 ;
@@ -37,9 +37,8 @@ html, body{
 }
 #allTime{
     display:flex;
-    flex: 0 0 auto;
-    margin-bottom:2px;
     flex-flow:row wrap;
+    flex: 0 0 auto;
     
 }
 #allTime p{
@@ -50,7 +49,7 @@ html, body{
     display:flex;
     flex: 0 0 auto;
     flex-flow:row wrap;
-    align-items:flex-start;
+    
 }
 
 #playspace{
