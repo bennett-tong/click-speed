@@ -37,7 +37,7 @@ html, body{
 }
 #allTime{
     display:flex;
-    flex: 0 0 20px;
+    flex: 0 0 auto;
     margin-bottom:2px;
     flex-flow:row wrap;
     
@@ -48,7 +48,7 @@ html, body{
 }
 #settings{
     display:flex;
-    flex: 0 0 20px;
+    flex: 0 0 auto;
     flex-flow:row wrap;
     align-items:flex-start;
 }
@@ -64,11 +64,11 @@ html, body{
 }
 #settings p{
     margin: 0 20px 5px 0;
-    flex: 0 0 20px
+
 }
 #settings div{
     display:flex;
     align-items:flex-start;
     flex-flow:row wrap;
-    flex: 0 0 20px
+    flex: 0 0 auto;
 }
