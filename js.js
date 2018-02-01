@@ -58,7 +58,7 @@ document.getElementById("clickable").onclick = function(){
     }
     document.getElementById("bestTime").innerHTML = "Best time: " + bestTime +"s";
     document.getElementById("result").innerHTML = "Your latest time was "+ time + "s!";
-    document.getElementById("clickcount").innerHTML = attempts;
+    document.getElementById("clicks").innerHTML = "Click count: " + attempts;
 
     divSize = getRandomNumber(20,2);
     divCircle = (Math.random() < 0.5) * 50;

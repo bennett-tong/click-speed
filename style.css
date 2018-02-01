@@ -2,19 +2,29 @@
 html, body{
     width:100%;
     height:100%;
-    line-height:0;
+    line-height:1;
+    display:flex;
+    flex-direction:column;
 }
 #instructions{
     display:flex;
+    flex-flow:row wrap;
+    flex: 0 0 auto;
+
 }
 #instructions p{
-    margin-right:20px;
+    margin:0 0 5px 0;
+
 }
 #numbers{
     display:flex;
+    flex: 0 0 auto;
+    flex-flow:row wrap;
+    align-items:flex-start;
 }
 #numbers p{
-    margin-right:20px;
+    margin:0 20px 5px 0 ;
+ 
 }
 #clickable {
     display:block;
@@ -27,7 +37,35 @@ html, body{
 }
 #allTime{
     display:flex;
+    flex: 0 0 20px;
+    margin-bottom:2px;
+    flex-flow:row wrap;
+    
 }
 #allTime p{
-    margin-right: 20px;
+    margin: 0 20px 5px 0;
+
+}
+#settings{
+    display:flex;
+    flex: 0 0 20px;
+    flex-flow:row wrap;
+    align-items:flex-start;
+}
+
+#playspace{
+
+    flex: 3 0 0;
+}
+#topblock{
+    display:flex;
+    flex-flow:column wrap;
+    flex: 1 0 0;
+}
+#settings p{
+    margin: 0 20px 5px 0;
+}
+#settings div{
+    display:flex;
+    align-items:flex-start;
 }
