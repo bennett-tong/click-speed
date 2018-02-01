@@ -68,4 +68,6 @@ html, body{
 #settings div{
     display:flex;
     align-items:flex-start;
+    flex-flow:row wrap;
+    flex: 0 0 20px
 }
