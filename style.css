@@ -64,6 +64,7 @@ html, body{
 }
 #settings p{
     margin: 0 20px 5px 0;
+    flex: 0 0 20px
 }
 #settings div{
     display:flex;
