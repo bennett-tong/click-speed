@@ -58,7 +58,7 @@ html, body{
 }
 #topblock{
     display:flex;
-    flex-flow:column wrap;
+    flex-flow:column nowrap;
     flex: 1 0 0;
 }
 #settings p{
